@@ -29,7 +29,7 @@ use Sts\Core\Regions\ProductDomain;
 class DefaultProfile implements IClientProfile
 {
 	private static $profile;
-	private static $endpoints;
+	private static $endpoints = [];
 	private static $credential;
 	private static $regionId;
 	private static $acceptFormat;
