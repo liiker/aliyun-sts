@@ -21,7 +21,7 @@ namespace Sts\Core\Regions;
 
 class EndpointProvider
 {
-	private static $endpoints;
+	private static $endpoints = [];
 	
 	public static function findProductDomain($regionId, $product)
 	{
